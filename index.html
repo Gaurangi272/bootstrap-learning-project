@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="navbar" data-bs-offset="100">
+    <div>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Bootstrap</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- jumbotron  -->
+    <div
+      class="jumbotron jumbotron-fluid"
+      id="home"
+      style="
+        color: white;
+        background-image: linear-gradient(
+          to right,
+          red,
+          orange,
+          yellow,
+          green,
+          blue,
+          indigo,
+          violet
+        );
+      "
+    >
+      <div class="container text-center">
+        <h1>Home Of Bootstrap</h1>
+        <br />
+        <p style="font-size: larger">
+          <b>
+            Bootstrap is the most popular HTML, CSS, and JS framework for
+            developing responsive, mobile-first projects on the web.
+          </b>
+        </p>
+        <p style="font-size: larger">
+          <b>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+            neque!
+          </b>
+        </p>
+      </div>
+    </div>
+    <div id="about">
+      <div class="text-center" >
+        <h2>Create a website without limits</h2>
+        <p>
+          Bring your vision to life with the website builder that gives you the
+          tools you need to succeed.
+        </p>
+      </div>
+      <!-- Cards Group -->
+      <div class="row row-cols-1 row-cols-md-3 g-4 m-5">
+        <div class="col-sm mb-2">
+          <div class="card">
+            <img
+              src="Untitled.jpeg"
+              class="card-img-top rounded-circle"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Features 1</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                architecto accusamus modi distinctio nihil dignissimos adipisci
+                non repellat sapiente dicta itaque iusto optio dolores
+                temporibus, magni laudantium similique, ipsa impedit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mb-2">
+          <div class="card">
+            <img
+              src="Untitled.jpeg"
+              class="card-img-top rounded-circle"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Features 2</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                architecto accusamus modi distinctio nihil dignissimos adipisci
+                non repellat sapiente dicta itaque iusto optio dolores
+                temporibus, magni laudantium similique, ipsa impedit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mb-2">
+          <div class="card">
+            <img
+              src="Untitled.jpeg"
+              class="card-img-top rounded-circle"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Features 3</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                architecto accusamus modi distinctio nihil dignissimos adipisci
+                non repellat sapiente dicta itaque iusto optio dolores
+                temporibus, magni laudantium similique, ipsa impedit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="container-fluid bg-4 text-center bg-primary p-5 text-light" id="contact">
+      <h3>Download the app!</h3> 
+      <p>Really, why should i Download this app?</p>
+      <img src="app download.jpg" alt="app download" width="150px" />
+      <p class="p-2 text-light">Powered by <a href="#" class="text-light">XYZ</a> </p>
+    </footer>
+  </body>
+</html>
